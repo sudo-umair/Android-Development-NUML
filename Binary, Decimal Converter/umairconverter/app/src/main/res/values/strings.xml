@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">umair.converter</string>
+    <string name="btnconvert">Convert</string>
+    <string name="btnclear">Clear</string>
+    <string name="btnSwitch">Switch</string>
+    <string name="tMain">Converter</string>
+    <string name="tResult"> </string>
+    <string name="tConversion">Enter Decimal Value</string>
+    <string name="hint">Enter here</string>
+
+</resources>

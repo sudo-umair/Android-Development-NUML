@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Display">
+
+    <TextView
+        android:id="@+id/tage"
+        android:layout_width="155dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tname"
+        app:layout_constraintTop_toBottomOf="@+id/tname" />
+
+    <TextView
+        android:id="@+id/tqual"
+        android:layout_width="193dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tage"
+        app:layout_constraintTop_toBottomOf="@+id/tage" />
+
+    <TextView
+        android:id="@+id/tgender"
+        android:layout_width="156dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tqual"
+        app:layout_constraintTop_toBottomOf="@+id/tqual" />
+
+    <TextView
+        android:id="@+id/dlname"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:text="Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dlage"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Age:"
+        app:layout_constraintStart_toStartOf="@+id/dlname"
+        app:layout_constraintTop_toBottomOf="@+id/dlname" />
+
+    <TextView
+        android:id="@+id/dlqual"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="28dp"
+        android:text="Qualifcation:"
+        app:layout_constraintStart_toStartOf="@+id/dlage"
+        app:layout_constraintTop_toBottomOf="@+id/dlage" />
+
+    <TextView
+        android:id="@+id/tname"
+        android:layout_width="156dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toEndOf="@+id/dlname"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dlgender"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="24dp"
+        android:text="Gender: "
+        app:layout_constraintStart_toStartOf="@+id/dlqual"
+        app:layout_constraintTop_toBottomOf="@+id/dlqual" />
+</androidx.constraintlayout.widget.ConstraintLayout>
